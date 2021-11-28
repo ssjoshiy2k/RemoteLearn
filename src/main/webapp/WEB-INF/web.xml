@@ -1,0 +1,203 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.pict.controller.Login</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Signup</servlet-name>
+		<servlet-class>com.pict.controller.Signup</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.pict.controller.Logout</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteLogin</servlet-name>
+		<servlet-class>com.pict.controller.DeleteLogin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginTable</servlet-name>
+		<servlet-class>com.pict.dao.LoginTable</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GroupTable</servlet-name>
+		<servlet-class>com.pict.dao.GroupTable</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteSubject</servlet-name>
+		<servlet-class>com.pict.controller.DeleteSubject</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SubjectTable</servlet-name>
+		<servlet-class>com.pict.dao.SubjectTable</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SubjectAllotment</servlet-name>
+		<servlet-class>com.pict.dao.SubjectAllotment</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SubjectCord</servlet-name>
+		<servlet-class>com.pict.dao.SubjectCord</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteCoord</servlet-name>
+		<servlet-class>com.pict.controller.DeleteCoord</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteAllot</servlet-name>
+		<servlet-class>com.pict.controller.DeleteAllot</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ClrRecord</servlet-name>
+		<servlet-class>com.pict.dao.ClrRecord</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteEntry</servlet-name>
+		<servlet-class>com.pict.controller.DeleteEntry</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>totadao</servlet-name>
+		<servlet-class>com.pict.controller.totadao</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AssignCreate</servlet-name>
+		<servlet-class>com.pict.controller.AssignCreate</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteAssign</servlet-name>
+		<servlet-class>com.pict.controller.DeleteAssign</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SetMarksOfStudent</servlet-name>
+		<servlet-class>com.pict.controller.SetMarksOfStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FileDownload</servlet-name>
+		<servlet-class>com.pict.controller.FileDownload</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FileUpload</servlet-name>
+		<servlet-class>com.pict.controller.FileUpload</servlet-class>
+	</servlet>
+	<servlet>
+        <servlet-name>UpdateInfo</servlet-name>
+        <servlet-class>com.pict.controller.UpdateInfo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChangePass</servlet-name>
+        <servlet-class>com.pict.controller.ChangePass</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewStudentRecordDisplay</servlet-name>
+        <servlet-class>com.pict.controller.NewStudentRecordDisplay</servlet-class>
+    </servlet>
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Signup</servlet-name>
+		<url-pattern>/Signup</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteLogin</servlet-name>
+		<url-pattern>/DeleteLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginTable</servlet-name>
+		<url-pattern>/LoginTable</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GroupTable</servlet-name>
+		<url-pattern>/GroupTable</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteSubject</servlet-name>
+		<url-pattern>/DeleteSubject</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SubjectTable</servlet-name>
+		<url-pattern>/SubjectTable</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SubjectAllotment</servlet-name>
+		<url-pattern>/SubjectAllotment</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SubjectCord</servlet-name>
+		<url-pattern>/SubjectCord</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteCoord</servlet-name>
+		<url-pattern>/DeleteCoord</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteAllot</servlet-name>
+		<url-pattern>/DeleteAllot</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ClrRecord</servlet-name>
+		<url-pattern>/ClrRecord</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteEntry</servlet-name>
+		<url-pattern>/DeleteEntry</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>totadao</servlet-name>
+		<url-pattern>/totadao</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AssignCreate</servlet-name>
+		<url-pattern>/AssignCreate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteAssign</servlet-name>
+		<url-pattern>/DeleteAssign</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FileDownload</servlet-name>
+		<url-pattern>/FileDownload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FileUpload</servlet-name>
+		<url-pattern>/FileUpload</url-pattern>
+	</servlet-mapping>
+	 <servlet-mapping>
+        <servlet-name>UpdateInfo</servlet-name>
+        <url-pattern>/UpdateInfo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChangePass</servlet-name>
+        <url-pattern>/ChangePass</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewStudentRecordDisplay</servlet-name>
+        <url-pattern>/NewStudentRecordDisplay</url-pattern>
+    </servlet-mapping>
+    
+
+
+
+
+</web-app>
