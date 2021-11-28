@@ -1,2 +1,2 @@
 # RemoteLearn
-A platform for monitoring academic activities
+Assignment Submissions are undoubtedly the most hectic tasks in college life. Checking long  journals and entering its records in the hard cover record book can be very cumbersome to a professor.  The sole of the project is to make this task as efficient as possible with zero paper-work for record keeping. The project provides a platform to keep record for the user ( majorly comprising of Professors and Students ) and easy retrieval of the required information to the user.  Currently the project has been 
